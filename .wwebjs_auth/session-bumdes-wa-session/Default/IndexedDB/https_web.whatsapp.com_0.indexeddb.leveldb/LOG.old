@@ -1,0 +1,25 @@
+2025/07/18-10:53:30.499 1660 Reusing MANIFEST C:\Users\LENOVO\backend\bumdes_semplakbarat\.wwebjs_auth\session-bumdes-wa-session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/18-10:53:30.546 1660 Recovering log #68
+2025/07/18-10:53:30.737 1660 Reusing old log C:\Users\LENOVO\backend\bumdes_semplakbarat\.wwebjs_auth\session-bumdes-wa-session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000068.log 
+2025/07/18-10:53:50.699 a28 Level-0 table #73: started
+2025/07/18-10:53:50.743 a28 Level-0 table #73: 185749 bytes OK
+2025/07/18-10:53:50.747 a28 Delete type=0 #68
+2025/07/18-10:53:50.749 a28 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/18-10:54:37.091 1660 Compacting 1@1 + 1@2 files
+2025/07/18-10:54:37.938 1660 Generated table #74@1: 26254 keys, 975934 bytes
+2025/07/18-10:54:37.938 1660 Compacted 1@1 + 1@2 files => 975934 bytes
+2025/07/18-10:54:37.946 1660 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/18-11:17:59.523 2910 Level-0 table #76: started
+2025/07/18-11:18:01.661 2910 Level-0 table #76: 977974 bytes OK
+2025/07/18-11:18:01.680 2910 Delete type=2 #70
+2025/07/18-11:18:01.680 2910 Delete type=0 #72
+2025/07/18-11:18:01.680 2910 Delete type=2 #73
+2025/07/18-11:18:01.703 2910 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/18-11:18:01.703 2910 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x1a\x01\x02\x03\x00\x00\x00\x00\x00\x00\x18@' @ 123037 : 1
+2025/07/18-11:18:01.703 2910 Compacting 1@1 + 1@2 files
+2025/07/18-11:18:04.555 2910 Generated table #77@1: 28279 keys, 1056506 bytes
+2025/07/18-11:18:04.555 2910 Compacted 1@1 + 1@2 files => 1056506 bytes
+2025/07/18-11:18:04.557 2910 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/18-11:18:04.563 2910 Delete type=2 #74
+2025/07/18-11:18:04.563 2910 Delete type=2 #76
+2025/07/18-11:18:04.571 2910 Manual compaction at level-1 from '\x00\x1a\x01\x02\x03\x00\x00\x00\x00\x00\x00\x18@' @ 123037 : 1 .. (end); will stop at (end)
