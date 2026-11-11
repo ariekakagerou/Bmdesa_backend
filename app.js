@@ -48,13 +48,24 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
+// ===== ✅ CORS Config (tambahkan domain frontend production di sini) =====
+const allowedOrigins = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(',').map(o => o.trim())
+  : [
+      'http://localhost:3000',
+      'http://127.0.0.1:8000',
+      'http://localhost:57976'
+    ];
+
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://127.0.0.1:8000',
-    'http://localhost:57976'
-    
-  ],
+  origin: (origin, callback) => {
+    // Izinkan request tanpa origin (mobile app, Postman, dll)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
